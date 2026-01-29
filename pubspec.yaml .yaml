@@ -1,0 +1,31 @@
+name: pentathlon_odd
+description: App para la Gymkhana ODS de 3º ESO.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Rutas modernas
+  go_router: ^12.0.0
+  # Iconos ODS (usaremos estándar por ahora)
+  cupertino_icons: ^1.0.2
+  # Para escanear los obstáculos reciclados [cite: 7, 23]
+  mobile_scanner: ^3.5.0
+  # Para ver los vídeos explicativos de los alumnos [cite: 28]
+  url_launcher: ^6.1.11
+  # Gestión de estado simple
+  provider: ^6.0.5
+  # Tipografías estilo "Neo-Brutalism"
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
